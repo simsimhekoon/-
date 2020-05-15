@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc67565a-fff0-4461-93d7-4d5c15aea6c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/JdbcContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/DeleteStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/DeleteStatementStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/GetStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/GetStatementStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/InsertStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/InsertStatementStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/StatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/StatementStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/UpdateStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/user/UpdateStatementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
