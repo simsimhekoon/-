@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3ce0bdd-0ccd-4a5d-97b3-7331b86c5daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/userdao/JdbcContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../userdao2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../userdao2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DeleteStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/DeleteStatementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/GetStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/GetStatementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/InsertStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/InsertStatementStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/StatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/StatementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UpdateStatementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UpdateStatementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/userdao/UserDao.java" afterDir="false" />
     </list>
@@ -106,7 +103,7 @@
       <workItem from="1589521663518" duration="430000" />
       <workItem from="1589522160868" duration="1847000" />
       <workItem from="1589524695543" duration="81000" />
-      <workItem from="1589526587782" duration="12171000" />
+      <workItem from="1589526587782" duration="12684000" />
     </task>
     <servers />
   </component>
@@ -142,22 +139,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="819" y="195" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589540955043" />
-    <state width="766" height="98" key="GridCell.Tab.0.bottom" timestamp="1589547067552">
+    <state width="766" height="98" key="GridCell.Tab.0.bottom" timestamp="1589547678306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="766" height="98" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589547067552" />
-    <state width="766" height="98" key="GridCell.Tab.0.center" timestamp="1589547067551">
+    <state width="766" height="98" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589547678306" />
+    <state width="766" height="98" key="GridCell.Tab.0.center" timestamp="1589547678306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="766" height="98" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589547067551" />
-    <state width="766" height="98" key="GridCell.Tab.0.left" timestamp="1589547067551">
+    <state width="766" height="98" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589547678306" />
+    <state width="766" height="98" key="GridCell.Tab.0.left" timestamp="1589547678306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="766" height="98" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589547067551" />
-    <state width="766" height="98" key="GridCell.Tab.0.right" timestamp="1589547067551">
+    <state width="766" height="98" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589547678306" />
+    <state width="766" height="98" key="GridCell.Tab.0.right" timestamp="1589547678306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="766" height="98" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589547067551" />
+    <state width="766" height="98" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589547678306" />
     <state x="783" y="100" width="724" height="615" key="RefactorJ.ExtractClass" timestamp="1589546673289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
