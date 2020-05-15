@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc67565a-fff0-4461-93d7-4d5c15aea6c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../실습과제/.idea/실습과제.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/.idea/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +138,7 @@
       <workItem from="1588316926426" duration="8107000" />
       <workItem from="1589520307891" duration="649000" />
       <workItem from="1589522401367" duration="147000" />
+      <workItem from="1589526275628" duration="12000" />
     </task>
     <servers />
   </component>
