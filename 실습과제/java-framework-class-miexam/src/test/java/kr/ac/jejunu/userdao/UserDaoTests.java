@@ -1,6 +1,5 @@
 package kr.ac.jejunu.userdao;
 
-
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
