@@ -1,5 +1,6 @@
 package kr.ac.jejunu.userdao;
 
+import kr.ac.jejunu.user.DaoFactory;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
