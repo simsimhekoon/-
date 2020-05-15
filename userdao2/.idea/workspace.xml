@@ -4,10 +4,6 @@
     <list default="true" id="cc67565a-fff0-4461-93d7-4d5c15aea6c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/ConnectionMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/DataSorce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/DaoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/HallaConnectionMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/HallaConnectionMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/JejuConnectionMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/JejuConnectionMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../실습과제/java-framework-class-miexam/src/main/java/kr/ac/jejunu/userdao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
