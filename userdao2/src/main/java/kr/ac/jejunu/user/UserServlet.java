@@ -27,9 +27,9 @@ public class UserServlet extends GenericServlet {
         User user = userDao.get(1);
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("<html>");
-        stringBuffer.append("<hl>");
+        stringBuffer.append("<h1>");
         stringBuffer.append(String.format("Hello %s!!!", user.getName()));
-        stringBuffer.append("</hl>");
+        stringBuffer.append("</h1>");
         stringBuffer.append("</html>");
         res.getWriter().println(stringBuffer.toString());
     }
