@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Gradle : kr.ac.jejunu : userdao2-0.0.1-SNAPSHOT.war (exploded)" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc67565a-fff0-4461-93d7-4d5c15aea6c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/user/LombokTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB_INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,16 +19,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/kr/ac/jejunu/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/kr.ac.jejunu.user.UserDaoTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/kr.ac.jejunu.user.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/kr.ac.jejunu.user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-kr.ac.jejunu.user.UserDaoTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/user/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1aLPuXp3pOsWXkWXd9vr81AqbDZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -97,14 +105,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43142477" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\4-1학기\포털서비스\PortalService-\userdao2\build\libs\exploded\userdao2-0.0.1-SNAPSHOT.war\WEB-INF" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kr.ac.jejunu.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LombokTests">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration name="LombokTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -153,12 +164,152 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="Gradle : kr.ac.jejunu : userdao2-0.0.1-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_userdao2_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61215" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_CLASSNAME" />
+          <option name="VALUE" value="com.mysql.cj.jdbc.Driver" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="root" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:mysql://localhost/userdao?serverTimezone\=Asia/Seoul" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="as1212" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_CLASSNAME" />
+          <option name="VALUE" value="com.mysql.cj.jdbc.Driver" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="root" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:mysql://localhost/userdao?serverTimezone\=Asia/Seoul" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="as1212" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : kr.ac.jejunu : userdao2-0.0.1-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.LombokTests" />
+      <item itemvalue="Gradle.UserDaoTests" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LombokTests" />
         <item itemvalue="Gradle.UserDaoTests" />
+        <item itemvalue="Gradle.LombokTests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -182,7 +333,7 @@
       <workItem from="1589540958770" duration="774000" />
       <workItem from="1590119336004" duration="43000" />
       <workItem from="1590119420993" duration="2454000" />
-      <workItem from="1590122149902" duration="447000" />
+      <workItem from="1590122149902" duration="6049000" />
     </task>
     <servers />
   </component>
@@ -194,18 +345,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="88" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589528932317" />
-    <state x="447" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587725903740">
+    <state x="584" y="57" key="#Tomcat_Server" timestamp="1590126427181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587725903740" />
+    <state x="584" y="57" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1590126427181" />
+    <state x="674" y="54" width="862" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590129518502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="674" y="54" width="862" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590129518502" />
     <state x="634" y="115" width="819" height="592" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587730453905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="634" y="115" width="819" height="592" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1587730453905" />
-    <state x="821" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1588319862646">
+    <state x="821" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1590127531912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="821" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588319862646" />
+    <state x="821" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590127531912" />
     <state x="896" y="262" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1588323086889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,30 +377,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="558" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587118196895" />
-    <state x="912" y="122" key="EnvironmentVariablesDialog" timestamp="1587725902169">
+    <state x="912" y="122" key="EnvironmentVariablesDialog" timestamp="1590129482114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="912" y="122" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587725902169" />
-    <state x="713" y="156" key="FileChooserDialogImpl" timestamp="1590119371637">
+    <state x="912" y="122" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590129482114" />
+    <state x="713" y="156" key="FileChooserDialogImpl" timestamp="1590129458269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="713" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590119371637" />
-    <state width="838" height="146" key="GridCell.Tab.0.bottom" timestamp="1590122503219">
+    <state x="713" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590129458269" />
+    <state width="566" height="182" key="GridCell.Tab.0.bottom" timestamp="1590129612997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="838" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590122503219" />
-    <state width="838" height="146" key="GridCell.Tab.0.center" timestamp="1590122503219">
+    <state width="566" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590129612997" />
+    <state width="566" height="182" key="GridCell.Tab.0.center" timestamp="1590129612997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="838" height="146" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590122503219" />
-    <state width="838" height="146" key="GridCell.Tab.0.left" timestamp="1590122503218">
+    <state width="566" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590129612997" />
+    <state width="566" height="182" key="GridCell.Tab.0.left" timestamp="1590129612997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="838" height="146" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590122503218" />
-    <state width="838" height="146" key="GridCell.Tab.0.right" timestamp="1590122503219">
+    <state width="566" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590129612997" />
+    <state width="566" height="182" key="GridCell.Tab.0.right" timestamp="1590129612997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="838" height="146" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590122503219" />
+    <state width="566" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590129612997" />
+    <state width="566" height="182" key="GridCell.Tab.1.bottom" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.1.center" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.1.left" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.1.right" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.2.bottom" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.2.center" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.2.left" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
+    <state width="566" height="182" key="GridCell.Tab.2.right" timestamp="1590129612877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="566" height="182" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1590129612877" />
     <state x="914" y="102" width="592" height="615" key="RefactorJ.ExtractClass" timestamp="1588320980142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -258,10 +445,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="242" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1587111617909" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1590122115507">
+    <state x="498" y="0" key="SettingsEditor" timestamp="1590128077135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590122115507" />
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590128077135" />
     <state x="871" y="201" key="chooseDestDirectoryDialog" timestamp="1587118820328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
