@@ -28,7 +28,11 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.11'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
+
+    // spring boot에서는 jsp를 바로 읽을 수가 없대서 아래의 dependency들을 추가했어요.
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation 'javax.servlet:jstl'
 }
 
 test {
