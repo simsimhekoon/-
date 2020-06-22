@@ -138,26 +138,24 @@
         <div class="row features">
             <!-- 내용 -->
             <div class="card mb-4">
-                <div class="card mb-4">
-                    <button class="btn btn-primary" onclick="location.href='/insert'">글 쓰기</button>
-                </div>
-                ..
-                ..
-                ..
+                <form id="newBoard" action="/insertBoard" method="POST">
+                    <div class="form-group">
+                        <label for="subject">제목</label>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="제목을 입력하세요.">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">작성자</label>
+                        <input type="text" class="form-control" id="userID" name="userID" placeholder="제목을 입력하세요.">
+                    </div>
+                    <div class="form-group">
+                        <label for=subject">내용</label>
+                        <textarea class="form-control" id="contents" name="contents"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">목록으로</button>
+                    <button type="submit" class="btn btn-primary">제출하기</button>
+                </form>
             </div>
-
-            <!-- 페이지 전환 -->
-            <ul class="pagination justify-content-center mb-4">
-                <li class="page-item">
-                    <a class="page-link" href="#">&larr; Older</a>
-                </li>
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">Newer &rarr;</a>
-                </li>
-            </ul>
         </div>
-
-
     </div>
 </section>
 
