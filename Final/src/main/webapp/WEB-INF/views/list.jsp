@@ -10,7 +10,7 @@
     <title>Cupid</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/resources/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/resources/skins/eden.css" rel="stylesheet">
     <link href="/resources/css/animate.min.css" rel="stylesheet">
     <link href="/resources/css/icons/icons.css" rel="stylesheet">
@@ -21,8 +21,8 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="../../../resources/bootstrap/js/html5shiv.js"></script>
-    <script src="../../../resources/bootstrap/js/respond.min.js"></script>
+    <script src="/resources/bootstrap/js/html5shiv.js"></script>
+    <script src="/resources/bootstrap/js/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -36,7 +36,7 @@
                 <span class="icon icon-reorder"></span>
 
             </button>
-            <a class="navbar-brand" href="#"><img src="../../../resources/images/logo.png" alt="Expose"/> </a>
+            <a class="navbar-brand" href="#"><img src="/resources/images/logo.png" alt="Expose"/> </a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -288,7 +288,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/1.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/1.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -299,7 +299,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/2.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/2.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -310,7 +310,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/3.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/3.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -321,7 +321,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/4.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/4.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -332,7 +332,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="images/projects/5.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/5.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -343,7 +343,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/6.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/6.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -354,7 +354,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/7.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/7.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -365,7 +365,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="portfolio-block"><img src="../../../resources/images/projects/8.jpg" alt="Protect" />
+                <div class="portfolio-block"><img src="/resources/images/projects/8.jpg" alt="Protect" />
                     <div class="portfolio-caption text-center animated">
                         <h3 class="animated">Portfolio Item #1</h3>
 
@@ -519,37 +519,37 @@
                                             <div class="item active">
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1 animate_start">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-1.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-1.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2 animate_start">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-2.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-2.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3 animate_start">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-3.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-3.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4 animate_start">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-4.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-4.png" alt="Upportdash"></a></div>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-5.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-5.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-4.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-4.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-3.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-3.png" alt="Upportdash"></a></div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
                                                     <div class="item-inner"><a style="cursor: pointer;"><img
-                                                            src="../../../resources/images/logo-2.png" alt="Upportdash"></a></div>
+                                                            src="/resources/images/logo-2.png" alt="Upportdash"></a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -592,7 +592,7 @@
                                                             </div>
                                                             <div class="author">
                                                                 <div class="testimonial-image "><img
-                                                                        src="../../../resources/images/team-member-1.jpg" alt=""></div>
+                                                                        src="/resources/images/team-member-1.jpg" alt=""></div>
                                                                 <div class="testimonial-author-info">
                                                                     <a style="cursor: pointer;">Monica Sing</a> Template
                                                                     Eden
@@ -615,7 +615,7 @@
                                                             </div>
                                                             <div class="author">
                                                                 <div class="testimonial-image "><img
-                                                                        src="../../../resources/images/team-member-2.jpg" alt=""></div>
+                                                                        src="/resources/images/team-member-2.jpg" alt=""></div>
                                                                 <div class="testimonial-author-info">
                                                                     <a href="#">John Doe</a> Template Eden
                                                                 </div>
@@ -637,7 +637,7 @@
                                                             </div>
                                                             <div class="author">
                                                                 <div class="testimonial-image "><img
-                                                                        src="../../../resources/images/team-member-3.jpg" alt=""></div>
+                                                                        src="/resources/images/team-member-3.jpg" alt=""></div>
                                                                 <div class="testimonial-author-info">
                                                                     <a style="cursor: pointer;">Carol Johansen</a>
                                                                     Template Eden
@@ -737,8 +737,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <a class="logo" href="../../../resources/index.html">
-                        <img src="../../../resources/images/logo.png" alt="Template Eden">
+                    <a class="logo" href="/resources/index.html">
+                        <img src="/resources/images/logo.png" alt="Template Eden">
                     </a>
                 </div>
                 <div class="col-md-5">
@@ -761,8 +761,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="../../../resources/js/jquery.js"></script>
-<script src="../../../resources/bootstrap/js/bootstrap.min.js"></script>
+<script src="/resources/js/jquery.js"></script>
+<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
     $(function () {
