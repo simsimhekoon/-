@@ -23,6 +23,7 @@ public class BoardController {
         return "insert";
     }
 
+
     public String insert(BoardDto boardDto) {
         boardService.savePost(boardDto);
 

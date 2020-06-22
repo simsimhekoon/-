@@ -141,18 +141,18 @@
                 <form id="newBoard" action="/insertBoard" method="POST">
                     <div class="form-group">
                         <label for="subject">Title!</label>
-                        <input type="text" class="form-control" id="title" name="title" placeholder="제목을 입력하세요.">
+                        <input type="text" class="form-control" id="title" name="title" placeholder="--Title--">
                     </div>
                     <div class="form-group">
                         <label for="subject">Name!</label>
-                        <input type="text" class="form-control" id="userID" name="userID" placeholder="제목을 입력하세요.">
+                        <input type="text" class="form-control" id="userID" name="userID" placeholder="--Name--">
                     </div>
                     <div class="form-group">
                         <label for=subject">Contents</label>
                         <textarea class="form-control" id="contents" name="contents"></textarea>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">목록으로</button>
-                    <button type="submit" class="btn btn-primary">제출하기</button>
+                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
