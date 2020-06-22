@@ -1,16 +1,20 @@
 package com.test.project.service;
 
-import com.test.project.mapper.BoardMapper;
-import com.test.project.vo.PostVO;
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.test.project.domain.repository.BoardRepository;
+import com.test.project.dto.BoardDto;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
+@AllArgsConstructor
 @Service
 public class BoardService {
-    @Autowired
-    BoardMapper boardMapper;
-}
+    BoardRepository boardRepository;
 
-public int insertBoard(PostVO postVO) {
-    return boardMapper.insertBoard(postVO);
+    @Transactional
+    public Long savePost(BoardDto boardDto) {
+        return boardRepository.save(boardDto.toEntity()).getId();
+    }
 }

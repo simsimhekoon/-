@@ -139,7 +139,7 @@
             <!-- 내용 -->
             <div class="card mb-4">
                 <div class="card mb-4">
-                    <button class="btn btn-primary" onclick="location.href='/insert'">글 쓰기</button>
+                    <button class="btn btn-primary" onclick="location.href='/insert'">write</button>
                 </div>
                 ..
                 ..

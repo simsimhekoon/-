@@ -140,15 +140,15 @@
             <div class="card mb-4">
                 <form id="newBoard" action="/insertBoard" method="POST">
                     <div class="form-group">
-                        <label for="subject">제목</label>
+                        <label for="subject">Title!</label>
                         <input type="text" class="form-control" id="title" name="title" placeholder="제목을 입력하세요.">
                     </div>
                     <div class="form-group">
-                        <label for="subject">작성자</label>
+                        <label for="subject">Name!</label>
                         <input type="text" class="form-control" id="userID" name="userID" placeholder="제목을 입력하세요.">
                     </div>
                     <div class="form-group">
-                        <label for=subject">내용</label>
+                        <label for=subject">Contents</label>
                         <textarea class="form-control" id="contents" name="contents"></textarea>
                     </div>
                     <button type="button" class="btn btn-primary" onclick="location.href='/list'">목록으로</button>
