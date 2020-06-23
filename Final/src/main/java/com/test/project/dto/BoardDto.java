@@ -10,30 +10,26 @@ import java.time.LocalDateTime;
 @ToString
 @NoArgsConstructor
 public class BoardDto {
-    private Long id;
-    private String writer;
+    private Integer post_num;
+    private String userid;
     private String title;
-    private String content;
-    private LocalDateTime createdDate;
-    private LocalDateTime modifiedDate;
+    private String contents;
 
     public BoardEntity toEntity(){
         BoardEntity boardEntity = BoardEntity.builder()
-                .id(id)
-                .writer(writer)
+                .post_num(post_num)
+                .userid(userid)
                 .title(title)
-                .content(content)
+                .contents(contents)
                 .build();
         return boardEntity;
     }
 
     @Builder
-    public BoardDto(Long id, String title, String content, String writer, LocalDateTime createdDate, LocalDateTime modifiedDate) {
-        this.id = id;
-        this.writer = writer;
+    public BoardDto(Integer post_num, String title, String contents, String userid) {
+        this.post_num = post_num;
+        this.userid = userid;
         this.title = title;
-        this.content = content;
-        this.createdDate = createdDate;
-        this.modifiedDate = modifiedDate;
+        this.contents = contents;
     }
 }

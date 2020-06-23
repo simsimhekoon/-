@@ -1,35 +1,29 @@
 package com.test.project.domain.entity;
 
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
-@NoArgsConstructor(access =  AccessLevel.PROTECTED)
-@Getter
-@Entity
-@Table(name = "board")
-public class BoardEntity extends TimeEntity{
+//@NoArgsConstructor(access =  AccessLevel.PROTECTED)
+//@Getter
+@Entity(name = "post")
+@Data
+//@Table(name = "post")
+public class BoardEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(length = 10, nullable = false)
-    private String writer;
-
-    @Column(length = 100, nullable = false)
+    private Integer post_num;
+    private String contents;
     private String title;
+    private String userid;
 
-    @Column(columnDefinition = "TEXT", nullable = false)
-    private String content;
+    public BoardEntity(){}//기본생성자
 
     @Builder
-    public BoardEntity(Long id, String title, String content, String writer) {
-        this.id = id;
-        this.writer = writer;
+    public BoardEntity(Integer post_num, String title, String contents, String userid) {
+        this.post_num = post_num;
+        this.userid = userid;
         this.title = title;
-        this.content = content;
+        this.contents = contents;
     }
 }

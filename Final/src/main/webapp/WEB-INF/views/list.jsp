@@ -1,5 +1,9 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="com.test.project.dto.BoardDto" %>
+<%@ page import="java.util.List" %>
+<%@ page import="com.test.project.service.BoardService" %>
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="kr" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +28,19 @@
     <script src="/resources/bootstrap/js/html5shiv.js"></script>
     <script src="/resources/bootstrap/js/respond.min.js"></script>
     <![endif]-->
+    <style>
+        table {
+            border-collapse: collapse;
+        }
 
+        table, th, td {
+            border: 1px solid black;
+        }
+        td {
+            width : 200px;
+            height: 30px;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#topnav">
@@ -142,7 +158,30 @@
                     <button class="btn btn-primary" onclick="location.href='/insert'">write</button>
                 </div>
                 ..
-                ..
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="one wide">Num</th>
+                        <th class="ten wide">Title</th>
+                        <th class="two wide">userId</th>
+                    </tr>
+                    </thead>
+
+                    <tbody  id="Post">
+                    <!-- CONTENTS !-->
+                    <tr>
+<%--                        <td>--%>
+<%--                            <a th:href="@{'/post/' + ${board.post_num}}">--%>
+<%--                                <span th:text="${board.title}"></span>--%>
+<%--                            </a>--%>
+<%--                        </td>--%>
+<%--                        <td>--%>
+<%--                            <span th:text="${board.userid}"></span>--%>
+<%--                        </td>--%>
+
+                    </tbody>
+                </table>
                 ..
             </div>
 
@@ -241,6 +280,30 @@
         });
 
     });
+</script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+    console.log("teset");
+    $.ajax({
+        type: 'get',
+        url: `/rest`,
+        dataType: 'json',
+        async: false,
+        success: (data) => {
+            const boardData = data.boardDtoList;
+            var POST= document.getElementById('Post');
+            for(let i=0;i<boardData.length;i++) {
+                POST.innerHTML += `<tr><td>` +
+                boardData[i].post_num + `</td><td>` +
+                    boardData[i].title + `</td><td>` +
+                    boardData[i].userid + `</td></tr>`;
+            }
+        } ,
+        error: () => {console.log("에러에러에러");
+        },
+    });
+
+
 </script>
 </body>
 </html>

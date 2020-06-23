@@ -152,7 +152,7 @@
                         <textarea class="form-control" id="contents" name="contents"></textarea>
                     </div>
                     <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="create">Submit</button>
                 </form>
             </div>
         </div>
@@ -240,5 +240,30 @@
 
     });
 </script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+    console.log("teset");
+    console.log($('#title').value());
+
+
+    $('#create').click(function() {
+        $.ajax({
+           type: "POST",
+           url: "/rest",
+            data: {
+               "title" : $('#title').val(),
+                "userid" : $('#userID').val(),
+                "contents" : $('#contents').val()},
+
+            success: function() {
+                alert('Success!!');
+                location.reload();
+            }, error: function() {
+                alert('Fail!!!!');
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
