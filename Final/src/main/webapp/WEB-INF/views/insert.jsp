@@ -130,7 +130,7 @@
         <!-- Example row of columns -->
         <div class="row features">
             <div class="col-md-12 text-center">
-                <h2>Board</h2>
+                <h2>Insert!!!</h2>
 
                 <p>*************TEST*************</p>
             </div>

@@ -283,7 +283,7 @@
 </script>
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script>
-    console.log("teset");
+
     $.ajax({
         type: 'get',
         url: `/rest`,
@@ -294,15 +294,14 @@
             var POST= document.getElementById('Post');
             for(let i=0;i<boardData.length;i++) {
                 POST.innerHTML += `<tr><td>` +
-                boardData[i].post_num + `</td><td>` +
-                    boardData[i].title + `</td><td>` +
+                boardData[i].post_num + `</td><td><a href="/contents/`+boardData[i].post_num+`">` +
+                    boardData[i].title + `</a></td><td>` +
                     boardData[i].userid + `</td></tr>`;
             }
         } ,
         error: () => {console.log("에러에러에러");
         },
     });
-
 
 </script>
 </body>

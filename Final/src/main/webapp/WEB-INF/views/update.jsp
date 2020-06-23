@@ -130,7 +130,7 @@
         <!-- Example row of columns -->
         <div class="row features">
             <div class="col-md-12 text-center">
-                <h2>Contents</h2>
+                <h2>Update!!!</h2>
 
                 <p>*************TEST*************</p>
             </div>
@@ -138,22 +138,21 @@
         <div class="row features">
             <!-- 내용 -->
             <div class="card mb-4">
-                <form id="PostUpdate" action="/update/${boardEntity.post_num}" method="post">
+                <form id="newBoard" action="/rest" method="post">
                     <div class="form-group">
                         <label>Title!</label>
-                        <div class="form-control" id="title" name="title" >${boardEntity.title}</div>
+                        <input type="text" class="form-control" id="title" name="title" value="${boardEntity.title}"></input>
                     </div>
                     <div class="form-group">
                         <label>Name!</label>
-                        <div class="form-control" id="userid" name="userID">${boardEntity.userid}</div>
+                        <input type="text" class="form-control" id="userid" name="userID" value="${boardEntity.userid}"></input>
                     </div>
                     <div class="form-group">
                         <label>Contents</label>
-                        <div class="form-control" id="contents" name="contents">${boardEntity.contents}</div>
+                        <input type="text" class="form-control" id="contents" name="contents" value="${boardEntity.contents}"></input>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
-                    <button type="button" class="btn btn-primary" id="delete">DELETE</button>
-                    <button type="submit" class="btn btn-primary" id="update">UPDATE</button>
+                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">Cancle(go to list)</button>
+                    <button type="button" class="btn btn-primary" id="save">SAVE</button>
                 </form>
             </div>
         </div>
@@ -240,9 +239,6 @@
         });
 
     });
-</script>
-<script>
-
 </script>
 </body>
 </html>
