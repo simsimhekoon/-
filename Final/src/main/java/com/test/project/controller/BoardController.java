@@ -54,13 +54,11 @@ public class BoardController {
     }
 
     //삭제 테스트
-    @DeleteMapping("/contents/{post_num}")
-    public ModelAndView delete(@PathVariable Integer post_num){
-        ModelAndView modelAndView = new ModelAndView("contents");
-        BoardEntity boardEntity = boardRepository.findById(post_num).get();
-
-        modelAndView.addObject("boardEntity", boardEntity);
-        return modelAndView;
+    @DeleteMapping("/delete/{post_num}")
+    public String delete(@PathVariable Integer post_num){
+        BoardEntity boardEntity;
+        boardRepository.deleteById(post_num);
+        return "delete";
     }
 
 }
