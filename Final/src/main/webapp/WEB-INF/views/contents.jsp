@@ -154,8 +154,8 @@
                     <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
                     <button type="submit" class="btn btn-primary" id="update">UPDATE</button>
                 </form>
-                <form id="PostDelete" action="/rest" method="/delete/{post_num}">
-                    <button type="submit" class="btn btn-primary" id="delete">DELETE</button>
+                <form id="PostDelete" action="/rest/${boardEntity.post_num}" method="post">
+                    <button type="button" class="btn btn-primary" id="delete">DELETE</button>
                 </form>
             </div>
         </div>
@@ -243,7 +243,22 @@
 
     });
 </script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script>
+    $('#delete').on('click', function(){
+        var post_Num = ${boardEntity.post_num}
+        $.ajax({
+            url: "/rest/"+post_Num,
+            type: "DELETE",
+            success: function(){
+                alert("*Delete Success*");
+                window.location.href = "/list";
+            },
+            error: function(){
+                alert("restController err");
+            }
+        });
+    });
 
 </script>
 </body>

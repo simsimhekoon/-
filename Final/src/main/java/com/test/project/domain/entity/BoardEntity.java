@@ -26,4 +26,5 @@ public class BoardEntity{
         this.title = title;
         this.contents = contents;
     }
+
 }
