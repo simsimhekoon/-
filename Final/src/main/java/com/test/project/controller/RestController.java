@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
+import java.util.Map;
 
 @org.springframework.web.bind.annotation.RestController
 @Controller
@@ -31,7 +32,7 @@ public class RestController {
     }
 
 
-    //데이터 받기
+    //게시글 등록
     @PostMapping("")
     public RedirectView insert(String title, String userID, String contents) {
         BoardEntity boardEntity = new BoardEntity();
@@ -44,11 +45,23 @@ public class RestController {
     }
 
 
-    //데이터 삭제
+    //게시글 삭제
     @RequestMapping(value = "/{post_num}", method = RequestMethod.DELETE)
     public String delete(@PathVariable("post_num") final Integer post_num) {
         Boolean deleteResult = boardService.delete(post_num);
         return "list";
     }
 
+
+    //게시글 수정
+    @RequestMapping(value = "/{post_num}", method = RequestMethod.PUT)
+    public ResponseEntity<BoardEntity> updatePost(@PathVariable("post_num") final Integer post_num, @RequestBody final BoardEntity boardEntity) {
+        final BoardEntity updatePost = boardService.update(post_num, boardEntity);
+
+        if (updatePost == null) {
+            return new ResponseEntity<BoardEntity>(HttpStatus.NOT_FOUND);
+        }
+
+        return new ResponseEntity<BoardEntity>(updatePost, HttpStatus.OK);
+    }
 }

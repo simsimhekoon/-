@@ -138,7 +138,6 @@
         <div class="row features">
             <!-- 내용 -->
             <div class="card mb-4">
-                <form id="newBoard" action="/rest" method="post">
                     <div class="form-group">
                         <label>Title!</label>
                         <input type="text" class="form-control" id="title" name="title" value="${boardEntity.title}"></input>
@@ -151,9 +150,8 @@
                         <label>Contents</label>
                         <input type="text" class="form-control" id="contents" name="contents" value="${boardEntity.contents}"></input>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="location.href='/list'">Cancle(go to list)</button>
-                    <button type="button" class="btn btn-primary" id="save">SAVE</button>
-                </form>
+                    <button type="button" class="btn btn-primary" onclick="location.href='/contents/'+${boardEntity.post_num}">Cancle</button>
+                    <button type="button" class="btn btn-primary" id="update">SAVE</button>
             </div>
         </div>
     </div>
@@ -239,6 +237,38 @@
         });
 
     });
+</script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+    $('#update').on('click', function(){
+        var post_Num = ${boardEntity.post_num};
+        var title = document.getElementById('title').value;
+        var userid = document.getElementById('userid').value;
+        var contents = document.getElementById('contents').value;
+        var updateData = {
+            "post_num":post_Num,
+            "title":title,
+            "userid":userid,
+            "contents":contents
+        };
+        console.log(updateData);
+            $.ajax({
+                url: "/rest/"+post_Num,
+                type: "PUT",
+                data: JSON.stringify(updateData),
+                dataType:'json',
+                contentType:'application/json; charset=UTF-8',
+                async: false,
+                success: function(){
+                    alert("*Update Success*");
+                    window.location.href = "/contents/"+post_Num;
+                },
+                error: function(){
+                    alert("restController err");
+                }
+            });
+    });
+
 </script>
 </body>
 </html>

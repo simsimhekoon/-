@@ -4,11 +4,9 @@ import lombok.*;
 
 import javax.persistence.*;
 
-//@NoArgsConstructor(access =  AccessLevel.PROTECTED)
-//@Getter
+
 @Entity(name = "post")
 @Data
-//@Table(name = "post")
 public class BoardEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,5 +24,6 @@ public class BoardEntity{
         this.title = title;
         this.contents = contents;
     }
+
 
 }

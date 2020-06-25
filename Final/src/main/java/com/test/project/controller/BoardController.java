@@ -1,6 +1,5 @@
 package com.test.project.controller;
 
-import com.test.project.data.PostData;
 import com.test.project.domain.entity.BoardEntity;
 import com.test.project.domain.repository.BoardRepository;
 import com.test.project.dto.BoardDto;

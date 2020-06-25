@@ -159,26 +159,17 @@
                 </div>
                 ..
 
-                <table>
+                <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th class="one wide">Num</th>
+                        <th class="one wide">PostNum</th>
                         <th class="ten wide">Title</th>
-                        <th class="two wide">userId</th>
+                        <th class="two wide">UserName</th>
                     </tr>
                     </thead>
 
                     <tbody  id="Post">
                     <!-- CONTENTS !-->
-                    <tr>
-<%--                        <td>--%>
-<%--                            <a th:href="@{'/post/' + ${board.post_num}}">--%>
-<%--                                <span th:text="${board.title}"></span>--%>
-<%--                            </a>--%>
-<%--                        </td>--%>
-<%--                        <td>--%>
-<%--                            <span th:text="${board.userid}"></span>--%>
-<%--                        </td>--%>
 
                     </tbody>
                 </table>

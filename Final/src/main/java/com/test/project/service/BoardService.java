@@ -5,12 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import com.test.project.data.PostData;
 import com.test.project.domain.entity.BoardEntity;
 import com.test.project.domain.repository.BoardRepository;
 import com.test.project.dto.BoardDto;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -50,5 +48,19 @@ public class BoardService {
             boardRepository.deleteById(post_num);
             return true;
         }
+    }
+
+
+    public BoardEntity update(final Integer post_num, final BoardEntity boardEntity) {
+        final BoardEntity updatePost = boardRepository.findById(post_num).orElse(null);
+        if (updatePost == null) {
+            return null;
+        }
+        updatePost.setContents(boardEntity.getContents());
+        updatePost.setUserid(boardEntity.getUserid());
+        updatePost.setTitle(boardEntity.getTitle());
+        boardRepository.save(updatePost);
+
+        return updatePost;
     }
 }

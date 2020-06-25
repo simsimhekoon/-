@@ -154,9 +154,7 @@
                     <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
                     <button type="submit" class="btn btn-primary" id="update">UPDATE</button>
                 </form>
-                <form id="PostDelete" action="/rest/${boardEntity.post_num}" method="post">
                     <button type="button" class="btn btn-primary" id="delete">DELETE</button>
-                </form>
             </div>
         </div>
     </div>
