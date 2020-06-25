@@ -343,7 +343,8 @@
         dataType: 'json',
         async: false,
         success: (data) => {
-            const boardData = data.boardDtoList;
+            const boardData = data.boardEntityList;
+            console.log(boardData);
             var POST= document.getElementById('Post');
             for(let i=0;i<boardData.length;i++) {
                 POST.innerHTML += `<tr><td>` +
