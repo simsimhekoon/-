@@ -2,17 +2,13 @@ package com.test.project.controller;
 
 import com.test.project.domain.entity.BoardEntity;
 import com.test.project.domain.repository.BoardRepository;
-import com.test.project.dto.BoardDto;
 import com.test.project.service.BoardService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Controller
 @AllArgsConstructor

@@ -1,5 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.test.project.dto.BoardDto" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.test.project.service.BoardService" %>
 <!DOCTYPE html>
@@ -250,6 +249,7 @@
                         </div></div></div>
                 ..
             </div>
+        </div>
     </div>
 </section>
 
@@ -344,7 +344,6 @@
         async: false,
         success: (data) => {
             const boardData = data.boardEntityList;
-            console.log(boardData);
             var POST= document.getElementById('Post');
             for(let i=0;i<boardData.length;i++) {
                 POST.innerHTML += `<tr><td>` +

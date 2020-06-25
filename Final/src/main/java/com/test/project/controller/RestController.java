@@ -1,7 +1,6 @@
 package com.test.project.controller;
 
 import com.test.project.domain.entity.BoardEntity;
-import com.test.project.domain.repository.BoardRepository;
 import com.test.project.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -19,7 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class RestController {
     private final BoardService boardService;
-    private final BoardRepository boardRepository;
+
     //데이터 보내기
     @GetMapping("")
     public ModelMap get() {
