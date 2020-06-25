@@ -153,8 +153,8 @@
                     </div>
                     <button type="button" class="btn btn-primary" onclick="location.href='/list'">Back</button>
                     <button type="submit" class="btn btn-primary" id="update">UPDATE</button>
-                </form>
                     <button type="button" class="btn btn-primary" id="delete">DELETE</button>
+                </form>
             </div>
         </div>
     </div>
